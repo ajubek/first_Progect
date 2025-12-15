@@ -1,5 +1,17 @@
-.header{
-    .form{
+#header{
+    .header{
         display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        .ait{
+            display: flex;
+            gap: 60px;
+            a{
+            text-decoration: none;
+            gap: 30px;
+            color: black;
+        }
+        }
     }
 }
