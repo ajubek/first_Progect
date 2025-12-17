@@ -1,0 +1,56 @@
+.section3{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  .img-end{
+    padding-top: 55px;
+  }
+  .explain{
+    .text{
+      button{
+        padding: 5px 15px ;
+        border-radius: 20px;
+        background: rgba(240, 231, 20, 0.2);
+      }
+      h1{
+font-weight: 600;
+font-size: 44px;
+line-height: 56px;
+letter-spacing: 0%;
+padding-top: 10px;
+      }
+      p{
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0%;
+padding-top: 20px;
+      }
+    }
+    .carts{
+        display: flex;
+        gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+
+        .texo{
+
+          h1{
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -1.1%;
+
+          }
+          p{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+          }
+        }
+    }
+  }
+}
